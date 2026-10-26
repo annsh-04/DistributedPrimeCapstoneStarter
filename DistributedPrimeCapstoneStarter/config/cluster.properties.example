@@ -1,0 +1,14 @@
+# Copy the values into backend/src/main/resources/application.properties or override them with environment-specific settings.
+# Use the actual IPv4 addresses reported by hostname -I in the lab.
+cluster.node-count=4
+cluster.node.1.host=REPLACE_WITH_NODE_1_IP
+cluster.node.1.registry-port=1099
+cluster.node.2.host=REPLACE_WITH_NODE_2_IP
+cluster.node.2.registry-port=1099
+cluster.node.3.host=REPLACE_WITH_NODE_3_IP
+cluster.node.3.registry-port=1099
+cluster.node.4.host=REPLACE_WITH_NODE_4_IP
+cluster.node.4.registry-port=1099
+
+# Job defaults in the frontend: range 1-10000000, 24 tasks.
+# Every NodeAgent uses 4 Java threads per task.

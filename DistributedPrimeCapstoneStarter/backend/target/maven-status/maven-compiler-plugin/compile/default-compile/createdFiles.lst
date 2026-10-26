@@ -1,0 +1,13 @@
+com\capstone\cluster\service\ClusterService$NodeChoice.class
+com\capstone\cluster\ClusterApiApplication.class
+com\capstone\cluster\api\ApiExceptionHandler.class
+com\capstone\cluster\rmi\NodeAgent.class
+com\capstone\cluster\rmi\NodeRemote.class
+com\capstone\cluster\rmi\NodeSnapshot.class
+com\capstone\cluster\service\ClusterService$Job.class
+com\capstone\cluster\HealthController.class
+com\capstone\cluster\rmi\TaskReplica.class
+com\capstone\cluster\service\ClusterService$TaskState.class
+com\capstone\cluster\WebConfig.class
+com\capstone\cluster\api\ClusterController.class
+com\capstone\cluster\service\ClusterService.class
